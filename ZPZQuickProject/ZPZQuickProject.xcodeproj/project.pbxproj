@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		DB64DA1820FC7FFE00D3C666 /* ZPZAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DB64DA1720FC7FFE00D3C666 /* ZPZAppDelegate.m */; };
-		DB64DA1B20FC7FFE00D3C666 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB64DA1A20FC7FFE00D3C666 /* ViewController.m */; };
 		DB64DA2020FC7FFF00D3C666 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB64DA1F20FC7FFF00D3C666 /* Assets.xcassets */; };
 		DB64DA2320FC7FFF00D3C666 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB64DA2120FC7FFF00D3C666 /* LaunchScreen.storyboard */; };
 		DB64DA2620FC7FFF00D3C666 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DB64DA2520FC7FFF00D3C666 /* main.m */; };
@@ -86,8 +85,6 @@
 		DB64DA1320FC7FFE00D3C666 /* ZPZQuickProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZPZQuickProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB64DA1620FC7FFE00D3C666 /* ZPZAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZPZAppDelegate.h; sourceTree = "<group>"; };
 		DB64DA1720FC7FFE00D3C666 /* ZPZAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZPZAppDelegate.m; sourceTree = "<group>"; };
-		DB64DA1920FC7FFE00D3C666 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		DB64DA1A20FC7FFE00D3C666 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		DB64DA1F20FC7FFF00D3C666 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DB64DA2220FC7FFF00D3C666 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DB64DA2420FC7FFF00D3C666 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -259,8 +256,6 @@
 				DB64DE3020FC810800D3C666 /* PublicManager */,
 				DB64DA1620FC7FFE00D3C666 /* ZPZAppDelegate.h */,
 				DB64DA1720FC7FFE00D3C666 /* ZPZAppDelegate.m */,
-				DB64DA1920FC7FFE00D3C666 /* ViewController.h */,
-				DB64DA1A20FC7FFE00D3C666 /* ViewController.m */,
 				DB64DA1F20FC7FFF00D3C666 /* Assets.xcassets */,
 				DB64DA2120FC7FFF00D3C666 /* LaunchScreen.storyboard */,
 				DB64DA2420FC7FFF00D3C666 /* Info.plist */,
@@ -668,7 +663,6 @@
 				DB64DEC420FC92AD00D3C666 /* ZPZPickerView.m in Sources */,
 				DB64DEBA20FC910900D3C666 /* ZPZAlertModel.m in Sources */,
 				DB64DE3320FC812600D3C666 /* ZPZBaseViewController.m in Sources */,
-				DB64DA1B20FC7FFE00D3C666 /* ViewController.m in Sources */,
 				DB64DEC020FC912C00D3C666 /* ZPZAlertView.m in Sources */,
 				DB64DFCF20FC9A7600D3C666 /* UIImageView+WebCache.m in Sources */,
 				DB64DE6520FC8B0700D3C666 /* ZPZLoadingView.m in Sources */,
