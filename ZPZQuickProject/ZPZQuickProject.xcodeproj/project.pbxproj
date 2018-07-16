@@ -7,14 +7,60 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		DB64DA1820FC7FFE00D3C666 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DB64DA1720FC7FFE00D3C666 /* AppDelegate.m */; };
+		DB64DA1820FC7FFE00D3C666 /* ZPZAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DB64DA1720FC7FFE00D3C666 /* ZPZAppDelegate.m */; };
 		DB64DA1B20FC7FFE00D3C666 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB64DA1A20FC7FFE00D3C666 /* ViewController.m */; };
-		DB64DA1E20FC7FFE00D3C666 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB64DA1C20FC7FFE00D3C666 /* Main.storyboard */; };
 		DB64DA2020FC7FFF00D3C666 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB64DA1F20FC7FFF00D3C666 /* Assets.xcassets */; };
 		DB64DA2320FC7FFF00D3C666 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB64DA2120FC7FFF00D3C666 /* LaunchScreen.storyboard */; };
 		DB64DA2620FC7FFF00D3C666 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DB64DA2520FC7FFF00D3C666 /* main.m */; };
 		DB64DA3020FC7FFF00D3C666 /* ZPZQuickProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DB64DA2F20FC7FFF00D3C666 /* ZPZQuickProjectTests.m */; };
 		DB64DA3B20FC7FFF00D3C666 /* ZPZQuickProjectUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DB64DA3A20FC7FFF00D3C666 /* ZPZQuickProjectUITests.m */; };
+		DB64DE3320FC812600D3C666 /* ZPZBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB64DE3220FC812600D3C666 /* ZPZBaseViewController.m */; };
+		DB64DE3620FC813900D3C666 /* ZPZBaseNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB64DE3520FC813900D3C666 /* ZPZBaseNavigationViewController.m */; };
+		DB64DE3920FC817000D3C666 /* ZPZBaseTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB64DE3820FC817000D3C666 /* ZPZBaseTabBarViewController.m */; };
+		DB64DE3C20FC818300D3C666 /* ZPZBaseInfoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = DB64DE3B20FC818300D3C666 /* ZPZBaseInfoModel.m */; };
+		DB64DE4020FC827200D3C666 /* ZPZTabBarManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DB64DE3F20FC827200D3C666 /* ZPZTabBarManager.m */; };
+		DB64DE4320FC828C00D3C666 /* ZPZTabBarModel.m in Sources */ = {isa = PBXBuildFile; fileRef = DB64DE4220FC828C00D3C666 /* ZPZTabBarModel.m */; };
+		DB64DE4620FC82AA00D3C666 /* ZPZTabBarItem.m in Sources */ = {isa = PBXBuildFile; fileRef = DB64DE4520FC82AA00D3C666 /* ZPZTabBarItem.m */; };
+		DB64DE4920FC82BA00D3C666 /* ZPZTabBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = DB64DE4820FC82BA00D3C666 /* ZPZTabBarView.m */; };
+		DB64DE5020FC84EE00D3C666 /* ZPZPublicManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DB64DE4F20FC84EE00D3C666 /* ZPZPublicManager.m */; };
+		DB64DE5620FC892800D3C666 /* ZPZPublicManager+Device.m in Sources */ = {isa = PBXBuildFile; fileRef = DB64DE5520FC892800D3C666 /* ZPZPublicManager+Device.m */; };
+		DB64DE5A20FC8A2C00D3C666 /* ZPZGuideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB64DE5920FC8A2C00D3C666 /* ZPZGuideViewController.m */; };
+		DB64DE5E20FC8A6700D3C666 /* ZPZADViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB64DE5D20FC8A6700D3C666 /* ZPZADViewController.m */; };
+		DB64DE6220FC8AEE00D3C666 /* ZPZToastView.m in Sources */ = {isa = PBXBuildFile; fileRef = DB64DE6120FC8AEE00D3C666 /* ZPZToastView.m */; };
+		DB64DE6520FC8B0700D3C666 /* ZPZLoadingView.m in Sources */ = {isa = PBXBuildFile; fileRef = DB64DE6420FC8B0700D3C666 /* ZPZLoadingView.m */; };
+		DB64DE6920FC8E2F00D3C666 /* ZPZCustomField.m in Sources */ = {isa = PBXBuildFile; fileRef = DB64DE6820FC8E2F00D3C666 /* ZPZCustomField.m */; };
+		DB64DE6C20FC8E3F00D3C666 /* ZPZCustomFieldModel.m in Sources */ = {isa = PBXBuildFile; fileRef = DB64DE6B20FC8E3F00D3C666 /* ZPZCustomFieldModel.m */; };
+		DB64DE6F20FC8F2500D3C666 /* ZPZCountTimeButton.m in Sources */ = {isa = PBXBuildFile; fileRef = DB64DE6E20FC8F2500D3C666 /* ZPZCountTimeButton.m */; };
+		DB64DEA120FC90A400D3C666 /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = DB64DE7620FC90A300D3C666 /* AFURLResponseSerialization.m */; };
+		DB64DEA220FC90A400D3C666 /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DB64DE7720FC90A300D3C666 /* AFHTTPSessionManager.m */; };
+		DB64DEA320FC90A400D3C666 /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DB64DE7920FC90A300D3C666 /* AFURLSessionManager.m */; };
+		DB64DEA420FC90A400D3C666 /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = DB64DE7A20FC90A300D3C666 /* AFURLRequestSerialization.m */; };
+		DB64DEA520FC90A400D3C666 /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DB64DE7C20FC90A300D3C666 /* AFNetworkReachabilityManager.m */; };
+		DB64DEA620FC90A400D3C666 /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = DB64DE7D20FC90A300D3C666 /* AFSecurityPolicy.m */; };
+		DB64DEA720FC90A400D3C666 /* UIImage+WebP.m in Sources */ = {isa = PBXBuildFile; fileRef = DB64DE8020FC90A400D3C666 /* UIImage+WebP.m */; };
+		DB64DEA820FC90A400D3C666 /* MKAnnotationView+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = DB64DE8120FC90A400D3C666 /* MKAnnotationView+WebCache.m */; };
+		DB64DEA920FC90A400D3C666 /* SDWebImageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DB64DE8420FC90A400D3C666 /* SDWebImageManager.m */; };
+		DB64DEAA20FC90A400D3C666 /* SDWebImageDecoder.m in Sources */ = {isa = PBXBuildFile; fileRef = DB64DE8520FC90A400D3C666 /* SDWebImageDecoder.m */; };
+		DB64DEAB20FC90A400D3C666 /* UIImageView+HighlightedWebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = DB64DE8720FC90A400D3C666 /* UIImageView+HighlightedWebCache.m */; };
+		DB64DEAC20FC90A400D3C666 /* SDWebImageDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = DB64DE8920FC90A400D3C666 /* SDWebImageDownloader.m */; };
+		DB64DEAD20FC90A400D3C666 /* UIImage+GIF.m in Sources */ = {isa = PBXBuildFile; fileRef = DB64DE8A20FC90A400D3C666 /* UIImage+GIF.m */; };
+		DB64DEAE20FC90A400D3C666 /* UIImage+MultiFormat.m in Sources */ = {isa = PBXBuildFile; fileRef = DB64DE8C20FC90A400D3C666 /* UIImage+MultiFormat.m */; };
+		DB64DEAF20FC90A400D3C666 /* SDWebImageCompat.m in Sources */ = {isa = PBXBuildFile; fileRef = DB64DE8D20FC90A400D3C666 /* SDWebImageCompat.m */; };
+		DB64DEB020FC90A400D3C666 /* SDWebImagePrefetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = DB64DE8E20FC90A400D3C666 /* SDWebImagePrefetcher.m */; };
+		DB64DEB120FC90A400D3C666 /* SDImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = DB64DE9220FC90A400D3C666 /* SDImageCache.m */; };
+		DB64DEB220FC90A400D3C666 /* SDWebImageDownloaderOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = DB64DE9420FC90A400D3C666 /* SDWebImageDownloaderOperation.m */; };
+		DB64DEB320FC90A400D3C666 /* NSData+ImageContentType.m in Sources */ = {isa = PBXBuildFile; fileRef = DB64DE9720FC90A400D3C666 /* NSData+ImageContentType.m */; };
+		DB64DEB420FC90A400D3C666 /* UIImageView+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = DB64DE9820FC90A400D3C666 /* UIImageView+WebCache.m */; };
+		DB64DEB520FC90A400D3C666 /* UIView+WebCacheOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = DB64DE9B20FC90A400D3C666 /* UIView+WebCacheOperation.m */; };
+		DB64DEB620FC90A400D3C666 /* UIButton+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = DB64DE9F20FC90A400D3C666 /* UIButton+WebCache.m */; };
+		DB64DEBA20FC910900D3C666 /* ZPZAlertModel.m in Sources */ = {isa = PBXBuildFile; fileRef = DB64DEB920FC910900D3C666 /* ZPZAlertModel.m */; };
+		DB64DEBD20FC912000D3C666 /* ZPZAlertField.m in Sources */ = {isa = PBXBuildFile; fileRef = DB64DEBC20FC912000D3C666 /* ZPZAlertField.m */; };
+		DB64DEC020FC912C00D3C666 /* ZPZAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = DB64DEBF20FC912C00D3C666 /* ZPZAlertView.m */; };
+		DB64DEC420FC92AD00D3C666 /* ZPZPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = DB64DEC320FC92AD00D3C666 /* ZPZPickerView.m */; };
+		DB64DEC820FC939400D3C666 /* ZPZSinglePickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = DB64DEC720FC939400D3C666 /* ZPZSinglePickerView.m */; };
+		DB64DECB20FC93B800D3C666 /* ZPZSinglePickerModel.m in Sources */ = {isa = PBXBuildFile; fileRef = DB64DECA20FC93B800D3C666 /* ZPZSinglePickerModel.m */; };
+		DB64DED020FC94E600D3C666 /* ZPZUILabel.m in Sources */ = {isa = PBXBuildFile; fileRef = DB64DECF20FC94E600D3C666 /* ZPZUILabel.m */; };
+		DB64DED320FC954200D3C666 /* ZPZUITextView.m in Sources */ = {isa = PBXBuildFile; fileRef = DB64DED220FC954200D3C666 /* ZPZUITextView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,11 +82,10 @@
 
 /* Begin PBXFileReference section */
 		DB64DA1320FC7FFE00D3C666 /* ZPZQuickProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZPZQuickProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		DB64DA1620FC7FFE00D3C666 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		DB64DA1720FC7FFE00D3C666 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DB64DA1620FC7FFE00D3C666 /* ZPZAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZPZAppDelegate.h; sourceTree = "<group>"; };
+		DB64DA1720FC7FFE00D3C666 /* ZPZAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZPZAppDelegate.m; sourceTree = "<group>"; };
 		DB64DA1920FC7FFE00D3C666 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		DB64DA1A20FC7FFE00D3C666 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		DB64DA1D20FC7FFE00D3C666 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DB64DA1F20FC7FFF00D3C666 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DB64DA2220FC7FFF00D3C666 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DB64DA2420FC7FFF00D3C666 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -51,6 +96,103 @@
 		DB64DA3620FC7FFF00D3C666 /* ZPZQuickProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZPZQuickProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB64DA3A20FC7FFF00D3C666 /* ZPZQuickProjectUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZPZQuickProjectUITests.m; sourceTree = "<group>"; };
 		DB64DA3C20FC800000D3C666 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB64DE3120FC812600D3C666 /* ZPZBaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZPZBaseViewController.h; sourceTree = "<group>"; };
+		DB64DE3220FC812600D3C666 /* ZPZBaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZPZBaseViewController.m; sourceTree = "<group>"; };
+		DB64DE3420FC813900D3C666 /* ZPZBaseNavigationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZPZBaseNavigationViewController.h; sourceTree = "<group>"; };
+		DB64DE3520FC813900D3C666 /* ZPZBaseNavigationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZPZBaseNavigationViewController.m; sourceTree = "<group>"; };
+		DB64DE3720FC817000D3C666 /* ZPZBaseTabBarViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZPZBaseTabBarViewController.h; sourceTree = "<group>"; };
+		DB64DE3820FC817000D3C666 /* ZPZBaseTabBarViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZPZBaseTabBarViewController.m; sourceTree = "<group>"; };
+		DB64DE3A20FC818300D3C666 /* ZPZBaseInfoModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZPZBaseInfoModel.h; sourceTree = "<group>"; };
+		DB64DE3B20FC818300D3C666 /* ZPZBaseInfoModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZPZBaseInfoModel.m; sourceTree = "<group>"; };
+		DB64DE3E20FC827200D3C666 /* ZPZTabBarManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZPZTabBarManager.h; sourceTree = "<group>"; };
+		DB64DE3F20FC827200D3C666 /* ZPZTabBarManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZPZTabBarManager.m; sourceTree = "<group>"; };
+		DB64DE4120FC828C00D3C666 /* ZPZTabBarModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZPZTabBarModel.h; sourceTree = "<group>"; };
+		DB64DE4220FC828C00D3C666 /* ZPZTabBarModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZPZTabBarModel.m; sourceTree = "<group>"; };
+		DB64DE4420FC82AA00D3C666 /* ZPZTabBarItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZPZTabBarItem.h; sourceTree = "<group>"; };
+		DB64DE4520FC82AA00D3C666 /* ZPZTabBarItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZPZTabBarItem.m; sourceTree = "<group>"; };
+		DB64DE4720FC82BA00D3C666 /* ZPZTabBarView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZPZTabBarView.h; sourceTree = "<group>"; };
+		DB64DE4820FC82BA00D3C666 /* ZPZTabBarView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZPZTabBarView.m; sourceTree = "<group>"; };
+		DB64DE4D20FC84C300D3C666 /* ZPZProjectConstant.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZPZProjectConstant.h; sourceTree = "<group>"; };
+		DB64DE4E20FC84EE00D3C666 /* ZPZPublicManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZPZPublicManager.h; sourceTree = "<group>"; };
+		DB64DE4F20FC84EE00D3C666 /* ZPZPublicManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZPZPublicManager.m; sourceTree = "<group>"; };
+		DB64DE5420FC892800D3C666 /* ZPZPublicManager+Device.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ZPZPublicManager+Device.h"; sourceTree = "<group>"; };
+		DB64DE5520FC892800D3C666 /* ZPZPublicManager+Device.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "ZPZPublicManager+Device.m"; sourceTree = "<group>"; };
+		DB64DE5820FC8A2C00D3C666 /* ZPZGuideViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZPZGuideViewController.h; sourceTree = "<group>"; };
+		DB64DE5920FC8A2C00D3C666 /* ZPZGuideViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZPZGuideViewController.m; sourceTree = "<group>"; };
+		DB64DE5C20FC8A6700D3C666 /* ZPZADViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZPZADViewController.h; sourceTree = "<group>"; };
+		DB64DE5D20FC8A6700D3C666 /* ZPZADViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZPZADViewController.m; sourceTree = "<group>"; };
+		DB64DE6020FC8AEE00D3C666 /* ZPZToastView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZPZToastView.h; sourceTree = "<group>"; };
+		DB64DE6120FC8AEE00D3C666 /* ZPZToastView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZPZToastView.m; sourceTree = "<group>"; };
+		DB64DE6320FC8B0700D3C666 /* ZPZLoadingView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZPZLoadingView.h; sourceTree = "<group>"; };
+		DB64DE6420FC8B0700D3C666 /* ZPZLoadingView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZPZLoadingView.m; sourceTree = "<group>"; };
+		DB64DE6720FC8E2F00D3C666 /* ZPZCustomField.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZPZCustomField.h; sourceTree = "<group>"; };
+		DB64DE6820FC8E2F00D3C666 /* ZPZCustomField.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZPZCustomField.m; sourceTree = "<group>"; };
+		DB64DE6A20FC8E3F00D3C666 /* ZPZCustomFieldModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZPZCustomFieldModel.h; sourceTree = "<group>"; };
+		DB64DE6B20FC8E3F00D3C666 /* ZPZCustomFieldModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZPZCustomFieldModel.m; sourceTree = "<group>"; };
+		DB64DE6D20FC8F2500D3C666 /* ZPZCountTimeButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZPZCountTimeButton.h; sourceTree = "<group>"; };
+		DB64DE6E20FC8F2500D3C666 /* ZPZCountTimeButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZPZCountTimeButton.m; sourceTree = "<group>"; };
+		DB64DE7220FC90A300D3C666 /* AFSecurityPolicy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFSecurityPolicy.h; sourceTree = "<group>"; };
+		DB64DE7320FC90A300D3C666 /* AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworkReachabilityManager.h; sourceTree = "<group>"; };
+		DB64DE7420FC90A300D3C666 /* AFURLSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLSessionManager.h; sourceTree = "<group>"; };
+		DB64DE7520FC90A300D3C666 /* AFURLRequestSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLRequestSerialization.h; sourceTree = "<group>"; };
+		DB64DE7620FC90A300D3C666 /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLResponseSerialization.m; sourceTree = "<group>"; };
+		DB64DE7720FC90A300D3C666 /* AFHTTPSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPSessionManager.m; sourceTree = "<group>"; };
+		DB64DE7820FC90A300D3C666 /* AFURLResponseSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLResponseSerialization.h; sourceTree = "<group>"; };
+		DB64DE7920FC90A300D3C666 /* AFURLSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLSessionManager.m; sourceTree = "<group>"; };
+		DB64DE7A20FC90A300D3C666 /* AFURLRequestSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLRequestSerialization.m; sourceTree = "<group>"; };
+		DB64DE7B20FC90A300D3C666 /* AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworking.h; sourceTree = "<group>"; };
+		DB64DE7C20FC90A300D3C666 /* AFNetworkReachabilityManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNetworkReachabilityManager.m; sourceTree = "<group>"; };
+		DB64DE7D20FC90A300D3C666 /* AFSecurityPolicy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFSecurityPolicy.m; sourceTree = "<group>"; };
+		DB64DE7E20FC90A300D3C666 /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPSessionManager.h; sourceTree = "<group>"; };
+		DB64DE8020FC90A400D3C666 /* UIImage+WebP.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+WebP.m"; sourceTree = "<group>"; };
+		DB64DE8120FC90A400D3C666 /* MKAnnotationView+WebCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MKAnnotationView+WebCache.m"; sourceTree = "<group>"; };
+		DB64DE8220FC90A400D3C666 /* UIImageView+WebCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+WebCache.h"; sourceTree = "<group>"; };
+		DB64DE8320FC90A400D3C666 /* NSData+ImageContentType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+ImageContentType.h"; sourceTree = "<group>"; };
+		DB64DE8420FC90A400D3C666 /* SDWebImageManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWebImageManager.m; sourceTree = "<group>"; };
+		DB64DE8520FC90A400D3C666 /* SDWebImageDecoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWebImageDecoder.m; sourceTree = "<group>"; };
+		DB64DE8620FC90A400D3C666 /* SDWebImageDownloaderOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageDownloaderOperation.h; sourceTree = "<group>"; };
+		DB64DE8720FC90A400D3C666 /* UIImageView+HighlightedWebCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+HighlightedWebCache.m"; sourceTree = "<group>"; };
+		DB64DE8820FC90A400D3C666 /* SDImageCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDImageCache.h; sourceTree = "<group>"; };
+		DB64DE8920FC90A400D3C666 /* SDWebImageDownloader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWebImageDownloader.m; sourceTree = "<group>"; };
+		DB64DE8A20FC90A400D3C666 /* UIImage+GIF.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+GIF.m"; sourceTree = "<group>"; };
+		DB64DE8B20FC90A400D3C666 /* UIButton+WebCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+WebCache.h"; sourceTree = "<group>"; };
+		DB64DE8C20FC90A400D3C666 /* UIImage+MultiFormat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+MultiFormat.m"; sourceTree = "<group>"; };
+		DB64DE8D20FC90A400D3C666 /* SDWebImageCompat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWebImageCompat.m; sourceTree = "<group>"; };
+		DB64DE8E20FC90A400D3C666 /* SDWebImagePrefetcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWebImagePrefetcher.m; sourceTree = "<group>"; };
+		DB64DE8F20FC90A400D3C666 /* UIView+WebCacheOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+WebCacheOperation.h"; sourceTree = "<group>"; };
+		DB64DE9020FC90A400D3C666 /* MKAnnotationView+WebCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MKAnnotationView+WebCache.h"; sourceTree = "<group>"; };
+		DB64DE9120FC90A400D3C666 /* UIImage+WebP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+WebP.h"; sourceTree = "<group>"; };
+		DB64DE9220FC90A400D3C666 /* SDImageCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDImageCache.m; sourceTree = "<group>"; };
+		DB64DE9320FC90A400D3C666 /* UIImageView+HighlightedWebCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+HighlightedWebCache.h"; sourceTree = "<group>"; };
+		DB64DE9420FC90A400D3C666 /* SDWebImageDownloaderOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWebImageDownloaderOperation.m; sourceTree = "<group>"; };
+		DB64DE9520FC90A400D3C666 /* SDWebImageDecoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageDecoder.h; sourceTree = "<group>"; };
+		DB64DE9620FC90A400D3C666 /* SDWebImageManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageManager.h; sourceTree = "<group>"; };
+		DB64DE9720FC90A400D3C666 /* NSData+ImageContentType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+ImageContentType.m"; sourceTree = "<group>"; };
+		DB64DE9820FC90A400D3C666 /* UIImageView+WebCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+WebCache.m"; sourceTree = "<group>"; };
+		DB64DE9920FC90A400D3C666 /* SDWebImageOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageOperation.h; sourceTree = "<group>"; };
+		DB64DE9A20FC90A400D3C666 /* SDWebImageDownloader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageDownloader.h; sourceTree = "<group>"; };
+		DB64DE9B20FC90A400D3C666 /* UIView+WebCacheOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+WebCacheOperation.m"; sourceTree = "<group>"; };
+		DB64DE9C20FC90A400D3C666 /* SDWebImagePrefetcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImagePrefetcher.h; sourceTree = "<group>"; };
+		DB64DE9D20FC90A400D3C666 /* SDWebImageCompat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageCompat.h; sourceTree = "<group>"; };
+		DB64DE9E20FC90A400D3C666 /* UIImage+MultiFormat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+MultiFormat.h"; sourceTree = "<group>"; };
+		DB64DE9F20FC90A400D3C666 /* UIButton+WebCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+WebCache.m"; sourceTree = "<group>"; };
+		DB64DEA020FC90A400D3C666 /* UIImage+GIF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+GIF.h"; sourceTree = "<group>"; };
+		DB64DEB820FC910900D3C666 /* ZPZAlertModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZPZAlertModel.h; sourceTree = "<group>"; };
+		DB64DEB920FC910900D3C666 /* ZPZAlertModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZPZAlertModel.m; sourceTree = "<group>"; };
+		DB64DEBB20FC912000D3C666 /* ZPZAlertField.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZPZAlertField.h; sourceTree = "<group>"; };
+		DB64DEBC20FC912000D3C666 /* ZPZAlertField.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZPZAlertField.m; sourceTree = "<group>"; };
+		DB64DEBE20FC912C00D3C666 /* ZPZAlertView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZPZAlertView.h; sourceTree = "<group>"; };
+		DB64DEBF20FC912C00D3C666 /* ZPZAlertView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZPZAlertView.m; sourceTree = "<group>"; };
+		DB64DEC220FC92AD00D3C666 /* ZPZPickerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZPZPickerView.h; sourceTree = "<group>"; };
+		DB64DEC320FC92AD00D3C666 /* ZPZPickerView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZPZPickerView.m; sourceTree = "<group>"; };
+		DB64DEC620FC939400D3C666 /* ZPZSinglePickerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZPZSinglePickerView.h; sourceTree = "<group>"; };
+		DB64DEC720FC939400D3C666 /* ZPZSinglePickerView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZPZSinglePickerView.m; sourceTree = "<group>"; };
+		DB64DEC920FC93B800D3C666 /* ZPZSinglePickerModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZPZSinglePickerModel.h; sourceTree = "<group>"; };
+		DB64DECA20FC93B800D3C666 /* ZPZSinglePickerModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZPZSinglePickerModel.m; sourceTree = "<group>"; };
+		DB64DECE20FC94E600D3C666 /* ZPZUILabel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZPZUILabel.h; sourceTree = "<group>"; };
+		DB64DECF20FC94E600D3C666 /* ZPZUILabel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZPZUILabel.m; sourceTree = "<group>"; };
+		DB64DED120FC954200D3C666 /* ZPZUITextView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZPZUITextView.h; sourceTree = "<group>"; };
+		DB64DED220FC954200D3C666 /* ZPZUITextView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZPZUITextView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,11 +243,17 @@
 		DB64DA1520FC7FFE00D3C666 /* ZPZQuickProject */ = {
 			isa = PBXGroup;
 			children = (
-				DB64DA1620FC7FFE00D3C666 /* AppDelegate.h */,
-				DB64DA1720FC7FFE00D3C666 /* AppDelegate.m */,
+				DB64DE7020FC906800D3C666 /* ThirdParts */,
+				DB64DE5F20FC8AE200D3C666 /* Common */,
+				DB64DE5B20FC8A5C00D3C666 /* AD */,
+				DB64DE5720FC8A1B00D3C666 /* Guide */,
+				DB64DE3D20FC825C00D3C666 /* ZPZTabBar */,
+				DB64DE2F20FC810800D3C666 /* Base */,
+				DB64DE3020FC810800D3C666 /* PublicManager */,
+				DB64DA1620FC7FFE00D3C666 /* ZPZAppDelegate.h */,
+				DB64DA1720FC7FFE00D3C666 /* ZPZAppDelegate.m */,
 				DB64DA1920FC7FFE00D3C666 /* ViewController.h */,
 				DB64DA1A20FC7FFE00D3C666 /* ViewController.m */,
-				DB64DA1C20FC7FFE00D3C666 /* Main.storyboard */,
 				DB64DA1F20FC7FFF00D3C666 /* Assets.xcassets */,
 				DB64DA2120FC7FFF00D3C666 /* LaunchScreen.storyboard */,
 				DB64DA2420FC7FFF00D3C666 /* Info.plist */,
@@ -130,6 +278,216 @@
 				DB64DA3C20FC800000D3C666 /* Info.plist */,
 			);
 			path = ZPZQuickProjectUITests;
+			sourceTree = "<group>";
+		};
+		DB64DE2F20FC810800D3C666 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				DB64DE3120FC812600D3C666 /* ZPZBaseViewController.h */,
+				DB64DE3220FC812600D3C666 /* ZPZBaseViewController.m */,
+				DB64DE3420FC813900D3C666 /* ZPZBaseNavigationViewController.h */,
+				DB64DE3520FC813900D3C666 /* ZPZBaseNavigationViewController.m */,
+				DB64DE3720FC817000D3C666 /* ZPZBaseTabBarViewController.h */,
+				DB64DE3820FC817000D3C666 /* ZPZBaseTabBarViewController.m */,
+				DB64DE3A20FC818300D3C666 /* ZPZBaseInfoModel.h */,
+				DB64DE3B20FC818300D3C666 /* ZPZBaseInfoModel.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		DB64DE3020FC810800D3C666 /* PublicManager */ = {
+			isa = PBXGroup;
+			children = (
+				DB64DE4D20FC84C300D3C666 /* ZPZProjectConstant.h */,
+				DB64DE4E20FC84EE00D3C666 /* ZPZPublicManager.h */,
+				DB64DE4F20FC84EE00D3C666 /* ZPZPublicManager.m */,
+				DB64DE5420FC892800D3C666 /* ZPZPublicManager+Device.h */,
+				DB64DE5520FC892800D3C666 /* ZPZPublicManager+Device.m */,
+			);
+			path = PublicManager;
+			sourceTree = "<group>";
+		};
+		DB64DE3D20FC825C00D3C666 /* ZPZTabBar */ = {
+			isa = PBXGroup;
+			children = (
+				DB64DE3E20FC827200D3C666 /* ZPZTabBarManager.h */,
+				DB64DE3F20FC827200D3C666 /* ZPZTabBarManager.m */,
+				DB64DE4120FC828C00D3C666 /* ZPZTabBarModel.h */,
+				DB64DE4220FC828C00D3C666 /* ZPZTabBarModel.m */,
+				DB64DE4420FC82AA00D3C666 /* ZPZTabBarItem.h */,
+				DB64DE4520FC82AA00D3C666 /* ZPZTabBarItem.m */,
+				DB64DE4720FC82BA00D3C666 /* ZPZTabBarView.h */,
+				DB64DE4820FC82BA00D3C666 /* ZPZTabBarView.m */,
+			);
+			path = ZPZTabBar;
+			sourceTree = "<group>";
+		};
+		DB64DE5720FC8A1B00D3C666 /* Guide */ = {
+			isa = PBXGroup;
+			children = (
+				DB64DE5820FC8A2C00D3C666 /* ZPZGuideViewController.h */,
+				DB64DE5920FC8A2C00D3C666 /* ZPZGuideViewController.m */,
+			);
+			path = Guide;
+			sourceTree = "<group>";
+		};
+		DB64DE5B20FC8A5C00D3C666 /* AD */ = {
+			isa = PBXGroup;
+			children = (
+				DB64DE5C20FC8A6700D3C666 /* ZPZADViewController.h */,
+				DB64DE5D20FC8A6700D3C666 /* ZPZADViewController.m */,
+			);
+			path = AD;
+			sourceTree = "<group>";
+		};
+		DB64DE5F20FC8AE200D3C666 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				DB64DECC20FC94CF00D3C666 /* TextAlignmentLabel */,
+				DB64DECD20FC94CF00D3C666 /* TextView */,
+				DB64DEC120FC929000D3C666 /* PickerView */,
+				DB64DEB720FC90FB00D3C666 /* Alert */,
+				DB64DE6620FC8E1C00D3C666 /* Field */,
+				DB64DE6020FC8AEE00D3C666 /* ZPZToastView.h */,
+				DB64DE6120FC8AEE00D3C666 /* ZPZToastView.m */,
+				DB64DE6320FC8B0700D3C666 /* ZPZLoadingView.h */,
+				DB64DE6420FC8B0700D3C666 /* ZPZLoadingView.m */,
+				DB64DE6D20FC8F2500D3C666 /* ZPZCountTimeButton.h */,
+				DB64DE6E20FC8F2500D3C666 /* ZPZCountTimeButton.m */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		DB64DE6620FC8E1C00D3C666 /* Field */ = {
+			isa = PBXGroup;
+			children = (
+				DB64DE6720FC8E2F00D3C666 /* ZPZCustomField.h */,
+				DB64DE6820FC8E2F00D3C666 /* ZPZCustomField.m */,
+				DB64DE6A20FC8E3F00D3C666 /* ZPZCustomFieldModel.h */,
+				DB64DE6B20FC8E3F00D3C666 /* ZPZCustomFieldModel.m */,
+			);
+			path = Field;
+			sourceTree = "<group>";
+		};
+		DB64DE7020FC906800D3C666 /* ThirdParts */ = {
+			isa = PBXGroup;
+			children = (
+				DB64DE7120FC90A300D3C666 /* AFNetworking */,
+				DB64DE7F20FC90A300D3C666 /* SDWebImage */,
+			);
+			path = ThirdParts;
+			sourceTree = "<group>";
+		};
+		DB64DE7120FC90A300D3C666 /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				DB64DE7220FC90A300D3C666 /* AFSecurityPolicy.h */,
+				DB64DE7320FC90A300D3C666 /* AFNetworkReachabilityManager.h */,
+				DB64DE7420FC90A300D3C666 /* AFURLSessionManager.h */,
+				DB64DE7520FC90A300D3C666 /* AFURLRequestSerialization.h */,
+				DB64DE7620FC90A300D3C666 /* AFURLResponseSerialization.m */,
+				DB64DE7720FC90A300D3C666 /* AFHTTPSessionManager.m */,
+				DB64DE7820FC90A300D3C666 /* AFURLResponseSerialization.h */,
+				DB64DE7920FC90A300D3C666 /* AFURLSessionManager.m */,
+				DB64DE7A20FC90A300D3C666 /* AFURLRequestSerialization.m */,
+				DB64DE7B20FC90A300D3C666 /* AFNetworking.h */,
+				DB64DE7C20FC90A300D3C666 /* AFNetworkReachabilityManager.m */,
+				DB64DE7D20FC90A300D3C666 /* AFSecurityPolicy.m */,
+				DB64DE7E20FC90A300D3C666 /* AFHTTPSessionManager.h */,
+			);
+			path = AFNetworking;
+			sourceTree = "<group>";
+		};
+		DB64DE7F20FC90A300D3C666 /* SDWebImage */ = {
+			isa = PBXGroup;
+			children = (
+				DB64DE8020FC90A400D3C666 /* UIImage+WebP.m */,
+				DB64DE8120FC90A400D3C666 /* MKAnnotationView+WebCache.m */,
+				DB64DE8220FC90A400D3C666 /* UIImageView+WebCache.h */,
+				DB64DE8320FC90A400D3C666 /* NSData+ImageContentType.h */,
+				DB64DE8420FC90A400D3C666 /* SDWebImageManager.m */,
+				DB64DE8520FC90A400D3C666 /* SDWebImageDecoder.m */,
+				DB64DE8620FC90A400D3C666 /* SDWebImageDownloaderOperation.h */,
+				DB64DE8720FC90A400D3C666 /* UIImageView+HighlightedWebCache.m */,
+				DB64DE8820FC90A400D3C666 /* SDImageCache.h */,
+				DB64DE8920FC90A400D3C666 /* SDWebImageDownloader.m */,
+				DB64DE8A20FC90A400D3C666 /* UIImage+GIF.m */,
+				DB64DE8B20FC90A400D3C666 /* UIButton+WebCache.h */,
+				DB64DE8C20FC90A400D3C666 /* UIImage+MultiFormat.m */,
+				DB64DE8D20FC90A400D3C666 /* SDWebImageCompat.m */,
+				DB64DE8E20FC90A400D3C666 /* SDWebImagePrefetcher.m */,
+				DB64DE8F20FC90A400D3C666 /* UIView+WebCacheOperation.h */,
+				DB64DE9020FC90A400D3C666 /* MKAnnotationView+WebCache.h */,
+				DB64DE9120FC90A400D3C666 /* UIImage+WebP.h */,
+				DB64DE9220FC90A400D3C666 /* SDImageCache.m */,
+				DB64DE9320FC90A400D3C666 /* UIImageView+HighlightedWebCache.h */,
+				DB64DE9420FC90A400D3C666 /* SDWebImageDownloaderOperation.m */,
+				DB64DE9520FC90A400D3C666 /* SDWebImageDecoder.h */,
+				DB64DE9620FC90A400D3C666 /* SDWebImageManager.h */,
+				DB64DE9720FC90A400D3C666 /* NSData+ImageContentType.m */,
+				DB64DE9820FC90A400D3C666 /* UIImageView+WebCache.m */,
+				DB64DE9920FC90A400D3C666 /* SDWebImageOperation.h */,
+				DB64DE9A20FC90A400D3C666 /* SDWebImageDownloader.h */,
+				DB64DE9B20FC90A400D3C666 /* UIView+WebCacheOperation.m */,
+				DB64DE9C20FC90A400D3C666 /* SDWebImagePrefetcher.h */,
+				DB64DE9D20FC90A400D3C666 /* SDWebImageCompat.h */,
+				DB64DE9E20FC90A400D3C666 /* UIImage+MultiFormat.h */,
+				DB64DE9F20FC90A400D3C666 /* UIButton+WebCache.m */,
+				DB64DEA020FC90A400D3C666 /* UIImage+GIF.h */,
+			);
+			path = SDWebImage;
+			sourceTree = "<group>";
+		};
+		DB64DEB720FC90FB00D3C666 /* Alert */ = {
+			isa = PBXGroup;
+			children = (
+				DB64DEB820FC910900D3C666 /* ZPZAlertModel.h */,
+				DB64DEB920FC910900D3C666 /* ZPZAlertModel.m */,
+				DB64DEBB20FC912000D3C666 /* ZPZAlertField.h */,
+				DB64DEBC20FC912000D3C666 /* ZPZAlertField.m */,
+				DB64DEBE20FC912C00D3C666 /* ZPZAlertView.h */,
+				DB64DEBF20FC912C00D3C666 /* ZPZAlertView.m */,
+			);
+			path = Alert;
+			sourceTree = "<group>";
+		};
+		DB64DEC120FC929000D3C666 /* PickerView */ = {
+			isa = PBXGroup;
+			children = (
+				DB64DEC520FC938400D3C666 /* SingleComPickerView */,
+				DB64DEC220FC92AD00D3C666 /* ZPZPickerView.h */,
+				DB64DEC320FC92AD00D3C666 /* ZPZPickerView.m */,
+			);
+			path = PickerView;
+			sourceTree = "<group>";
+		};
+		DB64DEC520FC938400D3C666 /* SingleComPickerView */ = {
+			isa = PBXGroup;
+			children = (
+				DB64DEC620FC939400D3C666 /* ZPZSinglePickerView.h */,
+				DB64DEC720FC939400D3C666 /* ZPZSinglePickerView.m */,
+				DB64DEC920FC93B800D3C666 /* ZPZSinglePickerModel.h */,
+				DB64DECA20FC93B800D3C666 /* ZPZSinglePickerModel.m */,
+			);
+			path = SingleComPickerView;
+			sourceTree = "<group>";
+		};
+		DB64DECC20FC94CF00D3C666 /* TextAlignmentLabel */ = {
+			isa = PBXGroup;
+			children = (
+				DB64DECE20FC94E600D3C666 /* ZPZUILabel.h */,
+				DB64DECF20FC94E600D3C666 /* ZPZUILabel.m */,
+			);
+			path = TextAlignmentLabel;
+			sourceTree = "<group>";
+		};
+		DB64DECD20FC94CF00D3C666 /* TextView */ = {
+			isa = PBXGroup;
+			children = (
+				DB64DED120FC954200D3C666 /* ZPZUITextView.h */,
+				DB64DED220FC954200D3C666 /* ZPZUITextView.m */,
+			);
+			path = TextView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -237,7 +595,6 @@
 			files = (
 				DB64DA2320FC7FFF00D3C666 /* LaunchScreen.storyboard in Resources */,
 				DB64DA2020FC7FFF00D3C666 /* Assets.xcassets in Resources */,
-				DB64DA1E20FC7FFE00D3C666 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,9 +619,56 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DB64DEAD20FC90A400D3C666 /* UIImage+GIF.m in Sources */,
+				DB64DEB520FC90A400D3C666 /* UIView+WebCacheOperation.m in Sources */,
+				DB64DE6C20FC8E3F00D3C666 /* ZPZCustomFieldModel.m in Sources */,
+				DB64DEB420FC90A400D3C666 /* UIImageView+WebCache.m in Sources */,
+				DB64DEA720FC90A400D3C666 /* UIImage+WebP.m in Sources */,
+				DB64DE6920FC8E2F00D3C666 /* ZPZCustomField.m in Sources */,
+				DB64DECB20FC93B800D3C666 /* ZPZSinglePickerModel.m in Sources */,
+				DB64DE5A20FC8A2C00D3C666 /* ZPZGuideViewController.m in Sources */,
+				DB64DEB620FC90A400D3C666 /* UIButton+WebCache.m in Sources */,
+				DB64DE6F20FC8F2500D3C666 /* ZPZCountTimeButton.m in Sources */,
+				DB64DE4020FC827200D3C666 /* ZPZTabBarManager.m in Sources */,
+				DB64DEBD20FC912000D3C666 /* ZPZAlertField.m in Sources */,
+				DB64DEA220FC90A400D3C666 /* AFHTTPSessionManager.m in Sources */,
+				DB64DEAE20FC90A400D3C666 /* UIImage+MultiFormat.m in Sources */,
+				DB64DED320FC954200D3C666 /* ZPZUITextView.m in Sources */,
+				DB64DEB020FC90A400D3C666 /* SDWebImagePrefetcher.m in Sources */,
+				DB64DE3920FC817000D3C666 /* ZPZBaseTabBarViewController.m in Sources */,
+				DB64DE6220FC8AEE00D3C666 /* ZPZToastView.m in Sources */,
+				DB64DE3C20FC818300D3C666 /* ZPZBaseInfoModel.m in Sources */,
+				DB64DEAF20FC90A400D3C666 /* SDWebImageCompat.m in Sources */,
+				DB64DE5E20FC8A6700D3C666 /* ZPZADViewController.m in Sources */,
+				DB64DED020FC94E600D3C666 /* ZPZUILabel.m in Sources */,
+				DB64DE5620FC892800D3C666 /* ZPZPublicManager+Device.m in Sources */,
+				DB64DEB320FC90A400D3C666 /* NSData+ImageContentType.m in Sources */,
+				DB64DEC420FC92AD00D3C666 /* ZPZPickerView.m in Sources */,
+				DB64DEBA20FC910900D3C666 /* ZPZAlertModel.m in Sources */,
+				DB64DE3320FC812600D3C666 /* ZPZBaseViewController.m in Sources */,
+				DB64DEA520FC90A400D3C666 /* AFNetworkReachabilityManager.m in Sources */,
+				DB64DEB120FC90A400D3C666 /* SDImageCache.m in Sources */,
 				DB64DA1B20FC7FFE00D3C666 /* ViewController.m in Sources */,
+				DB64DEC020FC912C00D3C666 /* ZPZAlertView.m in Sources */,
+				DB64DE6520FC8B0700D3C666 /* ZPZLoadingView.m in Sources */,
+				DB64DE4620FC82AA00D3C666 /* ZPZTabBarItem.m in Sources */,
+				DB64DEB220FC90A400D3C666 /* SDWebImageDownloaderOperation.m in Sources */,
+				DB64DEA420FC90A400D3C666 /* AFURLRequestSerialization.m in Sources */,
+				DB64DE4920FC82BA00D3C666 /* ZPZTabBarView.m in Sources */,
+				DB64DEC820FC939400D3C666 /* ZPZSinglePickerView.m in Sources */,
+				DB64DE5020FC84EE00D3C666 /* ZPZPublicManager.m in Sources */,
+				DB64DE3620FC813900D3C666 /* ZPZBaseNavigationViewController.m in Sources */,
+				DB64DEA920FC90A400D3C666 /* SDWebImageManager.m in Sources */,
+				DB64DEAA20FC90A400D3C666 /* SDWebImageDecoder.m in Sources */,
 				DB64DA2620FC7FFF00D3C666 /* main.m in Sources */,
-				DB64DA1820FC7FFE00D3C666 /* AppDelegate.m in Sources */,
+				DB64DEAC20FC90A400D3C666 /* SDWebImageDownloader.m in Sources */,
+				DB64DA1820FC7FFE00D3C666 /* ZPZAppDelegate.m in Sources */,
+				DB64DEA620FC90A400D3C666 /* AFSecurityPolicy.m in Sources */,
+				DB64DEA120FC90A400D3C666 /* AFURLResponseSerialization.m in Sources */,
+				DB64DEA820FC90A400D3C666 /* MKAnnotationView+WebCache.m in Sources */,
+				DB64DEAB20FC90A400D3C666 /* UIImageView+HighlightedWebCache.m in Sources */,
+				DB64DE4320FC828C00D3C666 /* ZPZTabBarModel.m in Sources */,
+				DB64DEA320FC90A400D3C666 /* AFURLSessionManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,14 +704,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		DB64DA1C20FC7FFE00D3C666 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				DB64DA1D20FC7FFE00D3C666 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		DB64DA2120FC7FFF00D3C666 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -436,13 +832,19 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9XTQKWEYF3;
 				INFOPLIST_FILE = ZPZQuickProject/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ZPZQuickProject/ThirdParts/yitu/LivenessDetectionCombineSDK",
+					"$(PROJECT_DIR)/ZPZQuickProject/ThirdParts/MoxieSDK",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = pengzuzhou.ZPZQuickProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -453,13 +855,19 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9XTQKWEYF3;
 				INFOPLIST_FILE = ZPZQuickProject/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ZPZQuickProject/ThirdParts/yitu/LivenessDetectionCombineSDK",
+					"$(PROJECT_DIR)/ZPZQuickProject/ThirdParts/MoxieSDK",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = pengzuzhou.ZPZQuickProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
