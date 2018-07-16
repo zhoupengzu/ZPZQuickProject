@@ -23,3 +23,4 @@ typedef NS_ENUM(NSInteger, ZPZCustomFieldType) {
     
     ZPZCustomFieldTypeField_MsgCode, // 编辑框 + 手机验证码
 };
+10、底部TabBar是直接以自定义的子视图的样式添加的，样式更灵活，编辑性也很强
